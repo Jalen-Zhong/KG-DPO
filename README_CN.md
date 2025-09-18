@@ -89,6 +89,7 @@ bash scipt/example-train-cpt.sh
 ## 📌 最新更新
 
 - **2025.09.18**: KG-DPO框架初始版本发布
+- **To Do**: 论文即将发布
 
 ## 🏗️ 方法与结果
 

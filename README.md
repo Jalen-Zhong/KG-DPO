@@ -89,8 +89,9 @@ bash scipt/example-train-cpt.sh
 ## 📌 Latest Updates
 
 - **2025.09.18**: Initial release of KG-DPO framework
+- **To Do**: The paper is coming soon.
 
-## 🏗️ Methods & Results
+## 🏗️ Methods & Results 
 
 ### Key Methodological Innovations
 <p align="center">
