@@ -1,0 +1,50 @@
+# KG-DPO customer config
+GENERAL:
+  TOKENIZER: "cl100k_base"
+  INPUT_FILE: "./data/corpus/HotpotEval_Corpus.json"
+  OUTPUT_DIR: "output"
+  CACHE_ID: ""
+
+EXTRACTOR:
+  MODEL_NAME: "Qwen3-30B-A3B"
+  BASE_URL: "https://ms-vnhf7ntj-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vnhf7ntj/v1"
+  API_KEY: "sk-abc123def0987111"
+  TEMPERATURE: 0
+  MAX_TOKENS: 5120
+  ENABLE_THINK: true
+
+GENERATOR:
+  MODEL_NAME: "Qwen3-30B-A3B"
+  BASE_URL: "https://ms-vnhf7ntj-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vnhf7ntj/v1"
+  API_KEY: "sk-abc123def0987111"
+  TEMPERATURE: 0.5
+  MAX_TOKENS: 5120
+  ENABLE_THINK: true
+
+MINER:
+  MODEL_NAME: "Qwen3-30B-A3B"
+  BASE_URL: "https://ms-vnhf7ntj-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vnhf7ntj/v1"
+  API_KEY: "sk-abc123def0987111"
+  TEMPERATURE: 0.7
+  MAX_TOKENS: 12800
+  ENABLE_THINK: true
+
+KG_WALKING:
+  QA_FORM: "multi_hop" # multi_hop, normal_qa
+  BIDRECTIONAL: true
+  ISOLATED_NODE_STRATEGY: "ignore" # ignore, add
+  MAX_DEPTH: 2
+  MAX_EXTRA_EDGES: 5
+  MAX_TOKENS: 256
+  EXAMPLE_NUM: 10
+
+NE_MINING:
+  STRATEGY: "retrieve_corpus" # none_context, retrieve_corpus, subgraph
+  DEPTH: 10
+  EMBEDDING_MODEL_NAME: "Qwen3-Embedding-0.6B"
+  EMBEDDING_API_BASE: "https://ms-vkz97z5c-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vkz97z5c"
+  EMBEDDING_API_KEY: "sk-abc123def0987111"
+  CHUNK_SIZE: 4000
+  CHUNK_OVERLAP: 50
+  RETRIEVE_CORPUS_TOP_K: 2
+  EMBEDDING_DB_PATH: "output/faiss_index"

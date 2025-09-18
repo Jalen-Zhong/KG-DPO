@@ -1,0 +1,1 @@
+python -u -m kg_dpo.generate --config ./configs/customer_config.yaml --verbose

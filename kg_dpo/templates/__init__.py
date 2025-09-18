@@ -1,0 +1,5 @@
+from .kg_extraction import KG_EXTRACTION_PROMPT
+from .kg_summarization import KG_SUMMARIZATION_PROMPT
+from .multi_hop_generation import MULTI_HOP_GENERATION_PROMPT
+from .normal_qa_generation import NORMAL_QA_GENERATION_PROMPT
+from .dpo_generation import DPO_GENERATION_PROMPT
