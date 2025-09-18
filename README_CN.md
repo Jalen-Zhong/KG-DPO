@@ -66,13 +66,6 @@ bash scipt/chatml-convert.sh
 bash scipt/kg-visual.sh
 ```
 
-### 评估
-
-```bash
-# 在基准测试上运行评估
-bash scipt/run-eval.sh
-```
-
 ### 训练
 
 ```bash
@@ -84,6 +77,13 @@ bash scipt/example-train-sft.sh
 
 # CPT训练示例
 bash scipt/example-train-cpt.sh
+```
+
+### 评估
+
+```bash
+# 在基准测试上运行评估
+bash scipt/run-eval.sh
 ```
 
 ## 📌 最新更新

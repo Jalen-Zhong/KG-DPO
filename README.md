@@ -66,13 +66,6 @@ bash scipt/chatml-convert.sh
 bash scipt/kg-visual.sh
 ```
 
-### Evaluation
-
-```bash
-# Run evaluation on benchmarks
-bash scipt/run-eval.sh
-```
-
 ### Training
 
 ```bash
@@ -84,6 +77,13 @@ bash scipt/example-train-sft.sh
 
 # CPT training example
 bash scipt/example-train-cpt.sh
+```
+
+### Evaluation
+
+```bash
+# Run evaluation on benchmarks
+bash scipt/run-eval.sh
 ```
 
 ## 📌 Latest Updates
