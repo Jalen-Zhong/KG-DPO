@@ -134,17 +134,18 @@ We sincerely thank these projects and their contributors for their foundational 
 
 If you use KG-DPO in your research, please cite our work:
 
-<!-- ```bibtex
-@misc{chen2025kgdpoenhancingllmswithknowledgegraphs,
-      title={KG-DPO: Enhancing LLMs with Knowledge Graphs and Direct Preference Optimization}, 
-      author={Zihong Chen and Wanli Jiang and Jinzhe Li and Zhonghang Yuan and Huanjun Kong and Wanli Ouyang and Nanqing Dong},
-      year={2025},
-      eprint={2505.20416},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.20416}, 
-}
-``` -->
+```bibtex
+@INPROCEEDINGS{11336430,
+  author={Zhong, Jianlin and Tang, Dong and Tao, Zhanyun and Xie, Mingjiang and Liu, Yiqiang and Zhang, Zhenyu},
+  booktitle={2025 6th International Conference on Machine Learning and Computer Application (ICMLCA)}, 
+  title={Negative Example Mining-Driven DPO Data Construction: Enhancing LLM Extensibility with Knowledge Graph}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={677-686},
+  keywords={Training;Systematics;Large language models;Knowledge graphs;Contrastive learning;Cognition;Data models;Data mining;Optimization;Synthetic data;data synthesis;large language model;knowledge graph;DPO;negative example mining},
+  doi={10.1109/ICMLCA66850.2025.11336430}}
+```
 
 ## 📜 License
 
