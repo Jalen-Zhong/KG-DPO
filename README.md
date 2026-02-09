@@ -28,6 +28,10 @@ KG-DPO: Knowledge-Graph Enhanced Direct Preference Optimization Data Synthesis F
 
 </details>
 
+## 📌 Latest Updates
+- 2026.01.20: Published in: 2025 6th International Conference on Machine Learning and Computer Application (ICMLCA). [**Paper Link Clik here.**](https://ieeexplore.ieee.org/document/11336430)
+- 2025.09.18: Code first release.
+
 ## 📝 What is KG-DPO?
 
 In this work, we propose and validate a novel knowledge-graph-based DPO data synthesis method, termed KG-DPO, which leverages Negative Example Mining (NE-Mining) to construct high-quality DPO training datasets. The framework integrates the strengths of knowledge graphs—structured, relational knowledge—with the advantages of Direct Preference Optimization (DPO) in preference learning. Specifically, it first exploits knowledge graphs to generate question–answer pairs enriched with deep logical structures and entity relations. Then, through negative example mining, it creates factually conflicting but stylistically consistent counterexamples, forming preference data pairs for DPO training. We conduct systematic experiments on the knowledge-intensive benchmarks HotpotQA and PQAref.This study provides a validated and effective paradigm for applying LLMs to knowledge-intensive domains.

@@ -71,6 +71,13 @@ def visualize_graphml(input_file: str, output_file: str, height: str = "750px", 
         "color": {
           "inherit": true
         }
+      },
+      "interaction": {
+        "navigationButtons": true,
+        "keyboard": true
+      },
+      "configure": {
+        "enabled": false
       }
     }
     """)
@@ -104,7 +111,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         '--height',
         type=str,
-        default='750px',
+        default='100%',
         help='Height of the visualization canvas'
     )
     
