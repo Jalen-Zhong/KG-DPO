@@ -7,24 +7,24 @@ GENERAL:
 
 EXTRACTOR:
   MODEL_NAME: "Qwen3-30B-A3B"
-  BASE_URL: "https://ms-vnhf7ntj-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vnhf7ntj/v1"
-  API_KEY: "sk-abc123def0987111"
+  BASE_URL: "https://YOUR_API_URL"
+  API_KEY: "YOUR_API_KEY"
   TEMPERATURE: 0
   MAX_TOKENS: 5120
   ENABLE_THINK: true
 
 GENERATOR:
   MODEL_NAME: "Qwen3-30B-A3B"
-  BASE_URL: "https://ms-vnhf7ntj-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vnhf7ntj/v1"
-  API_KEY: "sk-abc123def0987111"
+  BASE_URL: "https://YOUR_API_URL"
+  API_KEY: "YOUR_API_KEY"
   TEMPERATURE: 0.5
   MAX_TOKENS: 5120
   ENABLE_THINK: true
 
 MINER:
   MODEL_NAME: "Qwen3-30B-A3B"
-  BASE_URL: "https://ms-vnhf7ntj-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vnhf7ntj/v1"
-  API_KEY: "sk-abc123def0987111"
+  BASE_URL: "https://YOUR_API_URL"
+  API_KEY: "YOUR_API_KEY"
   TEMPERATURE: 0.7
   MAX_TOKENS: 12800
   ENABLE_THINK: true
@@ -42,8 +42,8 @@ NE_MINING:
   STRATEGY: "retrieve_corpus" # none_context, retrieve_corpus, subgraph
   DEPTH: 10
   EMBEDDING_MODEL_NAME: "Qwen3-Embedding-0.6B"
-  EMBEDDING_API_BASE: "https://ms-vkz97z5c-100032905193-sw.gw.ap-beijing.ti.tencentcs.com/ms-vkz97z5c"
-  EMBEDDING_API_KEY: "sk-abc123def0987111"
+  EMBEDDING_API_BASE: "https://YOUR_API_URL"
+  EMBEDDING_API_KEY: "YOUR_API_KEY"
   CHUNK_SIZE: 4000
   CHUNK_OVERLAP: 50
   RETRIEVE_CORPUS_TOP_K: 2
